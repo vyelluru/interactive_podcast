@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Interactive Podcast</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="title">Interactive Podcast</div>
+      <div class="sub">Spotify episode + time reader</div>
+
+      <div class="card">
+        <div class="label">Episode</div>
+        <div id="episodeTitle" class="value muted">—</div>
+
+        <div class="label">Show</div>
+        <div id="episodeUrl" class="value small muted">—</div>
+
+        <div class="row">
+          <div>
+            <div class="label">Time</div>
+            <div id="time" class="value muted">—</div>
+          </div>
+          <div>
+            <div class="label">Playing</div>
+            <div id="playing" class="value muted">—</div>
+          </div>
+        </div>
+
+        <button id="refresh">Refresh</button>
+        <div id="hint" class="hint muted">
+          Open Spotify Web Player and play a podcast episode.
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

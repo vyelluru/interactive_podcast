@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Interactive Podcast (MVP)",
+    "version": "0.1.0",
+    "description": "Reads current Spotify episode + playback time for interactive Q&A.",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://open.spotify.com/*"],
+    "action": {
+      "default_title": "Interactive Podcast",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://open.spotify.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
