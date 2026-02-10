@@ -76,7 +76,7 @@ app.post("/ask", async (req, res) => {
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
 if (!ELEVENLABS_API_KEY) console.warn("ELEVENLABS_API_KEY is not set");
 
-const VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"; // replace with your chosen voice
+const VOICE_ID = "LOZQapQhtjD67wXOqhzB"; // replace with your chosen voice
 const ELEVEN_BASE_URL = "https://api.elevenlabs.io";
 
 app.post("/tts", async (req, res) => {
