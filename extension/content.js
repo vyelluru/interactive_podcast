@@ -207,8 +207,9 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 // =====================
 // Backend calls (Phase 2)
 // =====================
+const API_BASE = "https://interactive-podcast.onrender.com"
 async function ttsBackend(text) {
-  const res = await fetch("http://localhost:8787/tts", {
+  const res = await fetch(`${API_BASE}/tts`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text }),
@@ -224,7 +225,7 @@ async function ttsBackend(text) {
 }
 
 async function askBackend(payload) {
-  const res = await fetch("http://localhost:8787/ask", {
+  const res = await fetch(`${API_BASE}/ask`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
