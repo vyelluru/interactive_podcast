@@ -1,1 +1,2 @@
 # interactive_podcast
+Interactive Podcast turns podcasts into an interactive experience. While you listen on Spotify Web, the extension tracks the current episode and moment in real time, letting you ask questions like “what do they mean by that?” or “summarize the last point.” The app pulls relevant context from the episode, generates a clear, concise answer, and prepares an audio response spoken in the same tone and voice style as the original podcaster, so you stay engaged without rewinding or breaking your listening flow.
