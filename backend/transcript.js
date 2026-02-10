@@ -2,201 +2,160 @@
 export const HARDCODED_EPISODE_ID = "1lfuh6IoUSB9he4VMDurfq"; // set this
 
 export const transcriptSegments = [
-    { start: 0, end: 2, text: "In 2024, Ford Motors cut back production" },
-    { start: 2, end: 5, text: "on their F-150 Lightning, the electric version" },
-    { start: 5, end: 8, text: "of their popular pickup truck." },
-    { start: 8, end: 10, text: "Sales on the Lightning had tanked, in part" },
-    { start: 10, end: 14, text: "because it costs more than its gas powered counterpart." },
-    { start: 14, end: 16, text: "This isn't just a problem for Ford." },
-    { start: 16, end: 18, text: "The average price of a new EV in the US" },
-    { start: 18, end: 20, text: "is about $55,000," },
-    { start: 20, end: 23, text: "making electric cars a hard sell for most US consumers" },
-    { start: 23, end: 28, text: "at a time when EV adoption is critical for our climate goals." },
-    { start: 28, end: 30, text: "Roughly 40% of the cost to produce" },
-    { start: 30, end: 33, text: "an electric vehicle is in the battery." },
-    { start: 33, end: 35, text: "So in 2023, it was reported" },
-    { start: 35, end: 37, text: "that Ford was looking at sites" },
-    { start: 37, end: 39, text: "in Virginia or Michigan for a new battery plant" },
-    { start: 39, end: 42, text: "that could help lower its costs." },
-    { start: 42, end: 44, text: "But there's a catch." },
-    { start: 44, end: 46, text: "The battery technology it would use is from a company" },
-    { start: 46, end: 50, text: "based here, in Fujian Province, China." },
-    { start: 50, end: 52, text: "That company is CATL," },
-    { start: 52, end: 56, text: "the largest battery maker in the world." },
-    { start: 56, end: 57, text: "Virginia's governor" },
-    { start: 57, end: 60, text: "decided to kill the battery plant proposal in his state" },
-    { start: 60, end: 61, text: "because of its links to China —" },
-    { start: 61, end: 65, text: "They are influenced, if not controlled, by the Chinese Communist Party." },
-    { start: 65, end: 68, text: "— putting Ford’s CEO on the defense —" },
-    { start: 68, end: 71, text: "Look, this plant is a wholly owned subsidiary of Ford." },
-    { start: 71, end: 74, text: "— and leaving them to look elsewhere for a site." },
-    { start: 74, end: 78, text: "This battery plant got caught up in a broader trade war" },
-    { start: 78, end: 79, text: "between the US and China," },
-    { start: 79, end: 83, text: "in reaction to the extraordinary rise of China's electric vehicle market." },
-    { start: 83, end: 87, text: "They make up over half of all EV sales globally," },
-    { start: 87, end: 89, text: "and in just a few short years, have brought slick" },
-    { start: 89, end: 92, text: "and affordable electric cars to the market." },
-    { start: 92, end: 95, text: "Key to this rise is the electric vehicle battery." },
-    { start: 95, end: 96, text: "This part of the EV" },
-    { start: 96, end: 99, text: "is where China has really come to dominate the global market." },
-    { start: 99, end: 101, text: "So how did Chinese companies create the world's" },
-    { start: 101, end: 103, text: "leading EV battery?" },
-    { start: 103, end: 113, text: "And can US automakers make an affordable electric car without it?" },
-  
-    { start: 113, end: 114, text: "The first major reason for" },
-    { start: 114, end: 117, text: "why China's companies were able to develop their EV battery" },
-    { start: 117, end: 120, text: "is due to a huge amount of government support." },
-    { start: 120, end: 122, text: "Roughly 20 years ago, China was on track" },
-    { start: 122, end: 125, text: "to become the world's largest importer of oil," },
-    { start: 125, end: 127, text: "so electrifying its car fleet would help" },
-    { start: 127, end: 130, text: "it become more energy independent." },
-    { start: 130, end: 132, text: "Not to mention a growing air pollution problem" },
-    { start: 132, end: 136, text: "in China's cities, in part due to car emissions." },
-    { start: 136, end: 138, text: "What the EVs had going for them" },
-    { start: 138, end: 142, text: "was that the head of the Ministry of Science and Technology" },
-    { start: 142, end: 144, text: "was a big believer in this." },
-    { start: 144, end: 146, text: "And his sense was that" },
-    { start: 146, end: 147, text: "Chinese companies were just" },
-    { start: 147, end: 149, text: "never going to be able to compete on internal combustion" },
-    { start: 149, end: 151, text: "engine technology." },
-    { start: 151, end: 154, text: "That’s how you get this package of policies that really supported" },
-    { start: 154, end: 157, text: "what the Chinese government defined as “new energy vehicles.”" },
-    { start: 157, end: 159, text: "Companies making the cars can get a subsidy" },
-    { start: 159, end: 160, text: "whenever they sell a car." },
-    { start: 160, end: 161, text: "We're also talking about," },
-    { start: 161, end: 165, text: "they're getting cheap land leases from the government." },
-    { start: 165, end: 168, text: "They're getting cheap loans from the state-owned banks." },
-    { start: 168, end: 171, text: "According to one estimate, from 2009 to 2022," },
-    { start: 171, end: 173, text: "the Chinese government gave out $29 billion" },
-    { start: 173, end: 176, text: "in the form of subsidies, research spending," },
-    { start: 176, end: 178, text: "and tax breaks, to the EV industry." },
-    { start: 178, end: 180, text: "And starting around 2009," },
-    { start: 180, end: 181, text: "local governments also gave" },
-    { start: 181, end: 184, text: "Chinese companies an instant market by contracting them" },
-    { start: 184, end: 187, text: "to electrify their bus and taxi fleets." },
-    { start: 187, end: 190, text: "The city of Shenzhen's fleet of 16,000 buses was electrified by BYD" },
-    { start: 190, end: 195, text: "before it became the world's largest EV company." },
-    { start: 195, end: 197, text: "To get consumers on board, governments" },
-    { start: 197, end: 200, text: "offered them generous subsidies too," },
-    { start: 200, end: 203, text: "along with other benefits." },
-    { start: 203, end: 204, text: "Like discounts on charging, favorable parking," },
-    { start: 204, end: 207, text: "traffic congestion-related policies that EVs get a break on." },
-    { start: 207, end: 209, text: "EVs actually have a different colored license plate, even," },
-    { start: 209, end: 210, text: "so it's very visible." },
-    { start: 210, end: 211, text: "And so people see, oh, that's an EV." },
-    { start: 211, end: 213, text: "They get all the special treatment." },
-    { start: 213, end: 216, text: "But the battery wasn't very good in the early days." },
-    { start: 216, end: 218, text: "And so the Chinese government goes in and starts introducing" },
-    { start: 218, end: 220, text: "stricter standards of batteries," },
-    { start: 220, end: 222, text: "saying, well, you'll only qualify for this credit" },
-    { start: 222, end: 226, text: "if your battery density reaches this level." },
-    { start: 226, end: 228, text: "Consumer EV sales in China exploded," },
-    { start: 228, end: 230, text: "and when it did, the government" },
-    { start: 230, end: 232, text: "did something important to protect their own battery industry." },
-    { start: 232, end: 234, text: "When foreign car companies like GM" },
-    { start: 234, end: 237, text: "and Tesla wanted to sell their EVs in China," },
-    { start: 237, end: 240, text: "the government made a rule that their cars must use" },
-    { start: 240, end: 243, text: "Chinese-made batteries to qualify for consumer subsidies." },
-    { start: 243, end: 244, text: "China’s central government" },
-    { start: 244, end: 247, text: "phased out consumer subsidies in 2022," },
-    { start: 247, end: 249, text: "but the demand had been created." },
-    { start: 249, end: 252, text: "In 2024, over half of new car sales in China were electric." },
-    { start: 252, end: 255, text: "This is a milestone, because half is a big thing." },
-    { start: 255, end: 257, text: "It means that the majority of the people" },
-    { start: 257, end: 260, text: "are actually preferring EVs over gas cars now." },
-  
-    { start: 260, end: 262, text: "The second way Chinese battery companies became" },
-    { start: 262, end: 264, text: "so dominant is through the supply chain" },
-    { start: 264, end: 266, text: "for the battery components." },
-    { start: 266, end: 268, text: "The type of battery that typically goes into" },
-    { start: 268, end: 272, text: "electric vehicles is called a lithium-ion battery." },
-    { start: 272, end: 274, text: "The four main components of the battery cell" },
-    { start: 274, end: 276, text: "are the cathode, the anode," },
-    { start: 276, end: 279, text: "the electrolyte solution, and a separator." },
-    { start: 279, end: 281, text: "The cathode is usually packed with" },
-    { start: 281, end: 282, text: "nickel, cobalt, and manganese." },
-    { start: 282, end: 284, text: "The anode uses graphite," },
-    { start: 284, end: 287, text: "and the electrolyte is made up of mostly lithium salts." },
-    { start: 287, end: 289, text: "Over the past several years," },
-    { start: 289, end: 292, text: "Chinese companies started acquiring ownership stakes" },
-    { start: 292, end: 294, text: "in mines around the world where these minerals exist." },
-    { start: 294, end: 298, text: "So they're sure that, if we control the production, then we control the price." },
-    { start: 298, end: 301, text: "The effect is that Chinese companies control significant percentages" },
-    { start: 301, end: 304, text: "of the world's supply of the minerals needed for batteries." },
-    { start: 304, end: 306, text: "But where China really controls" },
-    { start: 306, end: 308, text: "the supply chain are the steps after mining." },
-    { start: 308, end: 310, text: "No matter who mines the minerals," },
-    { start: 310, end: 312, text: "China refines a vast majority of them." },
-    { start: 312, end: 315, text: "This is the step where factories grind down raw mined" },
-    { start: 315, end: 318, text: "materials and extract the desired mineral from it." },
-    { start: 318, end: 319, text: "It's pretty polluting." },
-    { start: 319, end: 322, text: "That's why you don't see that much refining happening in developed countries." },
-    { start: 322, end: 326, text: "Chinese plants then also manufactured the vast majority of the four components" },
-    { start: 326, end: 328, text: "of the EV batteries: the cathode, the anode," },
-    { start: 328, end: 330, text: "the electrolyte and the separator, and put them together" },
-    { start: 330, end: 333, text: "to make the battery cell." },
-    { start: 333, end: 335, text: "Because you already had pretty developed manufacturing" },
-    { start: 335, end: 338, text: "for batteries aimed at electronics." },
-    { start: 338, end: 340, text: "So BYD is actually one of those examples," },
-    { start: 340, end: 343, text: "they started by producing batteries for electronics in the 90s. And then it got into producing EVs." },
-    { start: 343, end: 351, text: "The US was never a battery manufacturing player, historically speaking, in lithium ion." },
-    { start: 351, end: 353, text: "It was previously Japan and Korea." },
-    { start: 353, end: 356, text: "China has has now superseded both." },
-    { start: 356, end: 359, text: "China’s control of the battery supply chain is so encompassing" },
-    { start: 359, end: 362, text: "that after the Biden administration passed a rule" },
-    { start: 362, end: 368, text: "saying no more than half of the batteries’ components or minerals could be Chinese-sourced to qualify for tax credits," },
-    { start: 368, end: 372, text: "only an estimated 20% of EV models qualified." },
-    { start: 372, end: 375, text: "With their market dominance, Chinese companies have been able" },
-    { start: 375, end: 378, text: "to lead the world in battery innovation." },
-    { start: 378, end: 381, text: "In the past two years, Chinese companies figured out how to avoid" },
-    { start: 381, end: 385, text: "using the two most expensive battery minerals, nickel and cobalt." },
-    { start: 385, end: 387, text: "They did this by innovating on battery technology" },
-    { start: 387, end: 390, text: "called lithium iron phosphate, or LFP." },
-    { start: 390, end: 393, text: "In 2023, CATL announced an LFP battery" },
-    { start: 393, end: 396, text: "that could power a car for 370 miles on" },
-    { start: 396, end: 401, text: "just a ten-minute charge," },
-    { start: 401, end: 404, text: "and BYD has developed their own version of an LFP battery, too." },
-    { start: 404, end: 406, text: "It's called blade battery." },
-    { start: 406, end: 408, text: "It’s like a very thin, very long blade." },
-    { start: 408, end: 411, text: "But basically they’re saying that by using that shape," },
-    { start: 411, end: 413, text: "it can cram more batteries into the same space." },
-    { start: 413, end: 415, text: "So in that way, like," },
-    { start: 415, end: 418, text: "the same size of a car can travel farther." },
-    { start: 418, end: 421, text: "Today, LFP batteries are a growing share of all EV batteries," },
-    { start: 421, end: 425, text: "and nearly all of them are manufactured in China." },
-    { start: 425, end: 426, text: "But not for long." },
-    { start: 426, end: 429, text: "CATL has built battery plants in Germany," },
-    { start: 429, end: 432, text: "and has plans to build one in Hungary for the European auto market." },
-    { start: 432, end: 435, text: "And Ford ended up finding a home for its CATL" },
-    { start: 435, end: 438, text: "battery plant in the town of Marshall, Michigan." },
-    { start: 438, end: 441, text: "The project has triggered a US House investigation." },
-    { start: 441, end: 443, text: "But if it goes through, it'll be the first LFP" },
-    { start: 443, end: 446, text: "plant in the US." },
-    { start: 446, end: 449, text: "All of these factors have" },
-    { start: 449, end: 452, text: "made Chinese EV batteries virtually impossible" },
-    { start: 452, end: 454, text: "to avoid in the global transition to electric vehicles." },
-    { start: 454, end: 455, text: "Was there not a viable alternative?" },
-    { start: 455, end: 456, text: "No there wasn't." },
-    { start: 456, end: 459, text: "LFP technology is is very well developed." },
-    { start: 459, end: 462, text: "The battery business is a global business." },
-    { start: 462, end: 465, text: "And, this was, there were no alternatives." },
-    { start: 465, end: 469, text: "There are some concerns about whether China's government support of the EV industry" },
-    { start: 469, end: 474, text: "amounts to unfair global competition, as well as human rights and environmental concerns" },
-    { start: 474, end: 477, text: "associated with China's battery supply chain." },
-    { start: 477, end: 480, text: "The US is investing their own government support" },
-    { start: 480, end: 482, text: "to build up its battery industry." },
-    { start: 482, end: 485, text: "Bloomberg estimated it would cost $82 billion for the US" },
-    { start: 485, end: 488, text: "to meet their own domestic demand by 2030." },
-    { start: 488, end: 490, text: "So it might be possible in the future," },
-    { start: 490, end: 491, text: "but that's no help right now," },
-    { start: 491, end: 494, text: "when we desperately need to transition to electric vehicles" },
-    { start: 494, end: 497, text: "to wean ourselves from fossil fuels, and US automakers are struggling" },
-    { start: 497, end: 498, text: "to give consumers affordable options." },
-    { start: 498, end: 501, text: "So for now, we'll have to decide" },
-    { start: 501, end: 503, text: "whether our desire to keep our distance from China" },
-    { start: 503, end: 506, text: "outweighs our goals of going electric." },
-  
-    // last line: give it a small end padding
-    { start: 506, end: 509, text: "" }
-  ];
-  
+{
+    start: 0,
+    end: 22,
+    text:
+    "Welcome to MIT Technology Review Narrated. My name is Matt Honan. I'm our Editor-in-Chief. Every week, we'll bring you a fascinating, new, in-depth story from the leading edge of science and technology, covering topics like AI, biotech, climate, energy, robotics, and more. Here's this week's story. I hope you enjoy it."
+},
+{
+    start: 22,
+    end: 51,
+    text:
+    "China figured out how to sell EVs. Now it has to deal with their ageing batteries. In August 2025, Wang Lei decided it was finally time to say goodbye to his electric vehicle."
+},
+{
+    start: 51,
+    end: 73,
+    text:
+    "Wong, who is 39, had bought the car in 2016, when EVs still felt experimental in Beijing. It was a compact Chinese brand. The subsidies were good, and the salesman talked about supporting domestic innovation. At the time, only a few people around him were driving on batteries. He liked being early."
+},
+{
+    start: 73,
+    end: 91,
+    text:
+    "But now the car's range had started to shrink as the battery's health declined. He could have replaced the battery, but the warranty had expired. The cost and trouble no longer felt worth it. He also wanted an upgrade, so selling became the obvious choice."
+},
+{
+    start: 91,
+    end: 117,
+    text:
+    "His vague plans turned into action after he started seeing ads on Douyin from local battery recyclers. He asked around at a few recycling places, and the highest offer came from a smaller shop on the outskirts of town. He added the contact on WeChat, and the next day someone drove over to pick up his car. He got paid 8,000 yuan, around $1,150."
+},
+{
+    start: 117,
+    end: 145,
+    text:
+    "With the additional automobile scrappage subsidy offered by the Chinese government, Wang ultimately pocketed about 28,000 yuan. Wang is part of a much larger trend. In the past decade, China has seen an EV boom, thanks in part to government support. Buying an electric car has gone from a novel decision to a routine one. By late 2025, nearly 60% of new cars sold were electric or plug-in hybrids."
+},
+{
+    start: 145,
+    end: 170,
+    text:
+    "But as the batteries in China's first wave of EVs reach the end of their useful life, early owners are starting to retire their cars and the country is now under pressure to figure out what to do with those ageing components. The issue is putting strain on China's still-developing battery recycling industry and has given rise to a grey market that often cuts corners on safety and environmental standards."
+},
+{
+    start: 170,
+    end: 192,
+    text:
+    "National regulators and commercial players are also stepping in, building out formal recycling networks and take-back programs, but so far these efforts have struggled to keep pace with the flood of batteries coming off the road. Like the batteries in our phones and laptops, those in EVs today are mostly lithium-ion packs."
+},
+{
+    start: 192,
+    end: 214,
+    text:
+    "Their capacity drops a little every year, making the car slower to charge, shorter in range, and more prone to safety issues. Three professionals who work in EV retail and battery recycling told MIT Technology Review that a battery is often considered to be ready to retire from a car after its capacity is degraded to under 80%."
+},
+{
+    start: 214,
+    end: 240,
+    text:
+    "The research institution EVTank estimates that the year's total volume of retired EV batteries in China will come in at 820,000 tonnes, with annual totals climbing toward 1 million tonnes by 2030. In China, this growing pile of ageing batteries is starting to test a recycling ecosystem that is still far from fully built out, but is rapidly growing."
+},
+{
+    start: 240,
+    end: 264,
+    text:
+    "By the end of November 2025, China had close to 180,000 enterprises involved in battery recycling, and more than 30,000 of them had been registered since January 2025. Over 60% of the firms were founded within the past three years. This does not even include the unregulated grey market of small workshops."
+},
+{
+    start: 264,
+    end: 292,
+    text:
+    "Typically, one of two things happens when an EV's battery is retired. One is called cascade utilization, in which usable battery packs are tested and repurposed for slower applications like energy storage or low-speed vehicles. The other is full recycling. Cells are dismantled and processed to recover metals such as lithium, nickel, cobalt and manganese, which are then reused to manufacture new batteries."
+},
+{
+    start: 292,
+    end: 321,
+    text:
+    "Both these processes, if done properly, take significant upfront investment that is often not available to small players. But smaller illicit battery recycling centers can offer higher prices to consumers because they ignore costs that formal recyclers can't avoid, like environmental protection, fire safety, wastewater treatment, compliance, and taxes, according to the three battery recycling professionals MIT Technology Review spoke to."
+},
+{
+    start: 321,
+    end: 341,
+    text:
+    "They, workers, crack them open, rearrange the cells into new packs and repackage them to sell, says Gary Lynn, a battery recycling worker who worked in several unlicensed shops from 2022 to 2024. Sometimes the refurbished batteries are even sold as new to buyers, he says."
+},
+{
+    start: 341,
+    end: 357,
+    text:
+    "When the batteries are too old or damaged, workers simply crush them and sell them by weight to rare metal extractors. It's all done in a very brute force way. The wastewater used to soak the batteries is often just dumped straight into the sewer, he says."
+},
+{
+    start: 357,
+    end: 385,
+    text:
+    "This poorly managed battery waste can release toxic substances, contaminate water and soil, and create risks of fire and explosion. That is why the Chinese government has been trying to steer batteries into certified facilities. Since 2018, China's Ministry of Industry and Information Technology has issued five whitelists of approved power battery recyclers, now totaling 156 companies."
+},
+{
+    start: 385,
+    end: 403,
+    text:
+    "Despite this, formal recycling rates remain low, compared with the rapidly growing volume of waste batteries. China is not only the world's largest EV market, it has also become the main global manufacturing hub for EVs and the batteries that power them."
+},
+{
+    start: 403,
+    end: 423,
+    text:
+    "In 2024, the country accounted for more than 70% of global electric car production and more than half of global EV sales, and firms like CATL and BYD together control close to half of global EV battery output, according to a report by the International Energy Agency."
+},
+{
+    start: 423,
+    end: 441,
+    text:
+    "These companies are stepping in to offer solutions to customers wishing to offload their old batteries. Through their dealers and 4S stores, many carmakers now offer take-back schemes or opportunities to trade in old batteries for discount when owners scrap a vehicle or buy a new one."
+},
+{
+    start: 441,
+    end: 454,
+    text:
+    "BYD runs its own recycling operations that process thousands of end-of-life packs a year and has launched dedicated programs with specialist recyclers to recover materials from its batteries."
+},
+{
+    start: 454,
+    end: 477,
+    text:
+    "Geely has built a circular manufacturing system that combines disassembly of scrapped vehicles, cascade use of power batteries, and high recovery rates for metals and other materials. CATL, China's biggest EV maker, has created one of the industry's most developed recycling systems through its subsidiary, Runpee, with more than 240 collection depots and"
+},
+{
+    start: 477,
+    end: 503,
+    text:
+    "an annual disposal capacity of about 270,000 tonnes of waste batteries, and metal recovery rates above 99% for nickel, cobalt and manganese. No one is better equipped to handle these batteries than the companies that make them, says Alex Li, a battery engineer based in Shanghai. That's because they already understand the chemistry, the supply chain and the uses the recovered materials can be put to next."
+},
+{
+    start: 503,
+    end: 517,
+    text:
+    "Car makers and battery makers need to create a closed loop eventually, he says. But not every consumer can receive that support from the maker of their AV, because many of those manufacturers have ceased to exist."
+},
+{
+    start: 517,
+    end: 537,
+    text:
+    "In the past five years, over 400 smaller EV brands and startups have gone bankrupt as the price war made it hard to stay afloat, leaving only 100 active brands today. Analysts expect many more used batteries to hit the market in the coming years as the first big wave of EVs bought under generous subsidies reach retirement age."
+},
+{
+    start: 537,
+    end: 555,
+    text:
+    "Li says China is going to need to move much faster toward a comprehensive end-of-life system for EV batteries, one that can trace, reuse and recycle them at scale, instead of leaving so many to disappear into the grey market."
+},
+{
+    start: 555,
+    end: 558,
+    text:
+    "you were listening to MIT Technology Review, where Siwei Chen writes, China figured out how to sell EVs. Now it has to deal with their aging batteries. This article was published on the 18th of December 2025 and was read by Martin Buchanan for NOAA."
+}
+];

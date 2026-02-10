@@ -46,8 +46,7 @@ app.post("/ask", async (req, res) => {
 
     const system = [
       "You are a podcast companion.",
-      "Answer the user's question using the provided transcript window.",
-      "If the answer isn't in the window, give an answer from your knowledge while maintaining the tone of the provided transcript.",
+      "Answer the user's question using the provided transcript window and supplement it with your knowledge of events. Don't just repeat what was said in the transcript directly.",
       "Keep the answer brief (2 digestible sentences)."
     ].join(" ");
 
